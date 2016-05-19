@@ -52,4 +52,12 @@ public class MainCategoriesController {
 
         return "redirect:/admin/maincategories";
     }
+
+    @RequestMapping("/delete")
+    public String delete(@RequestParam("id") String id, Model model) {
+        mainCategoriesRepository.delete(id);
+
+        return "redirect:/admin/maincategories";
+    }
+
 }

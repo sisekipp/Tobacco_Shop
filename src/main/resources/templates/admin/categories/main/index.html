@@ -17,7 +17,6 @@
 </div>
 
 
-
 <br/>
 
 <div class="container-fluid">
@@ -30,7 +29,10 @@
                             <input type="text" placeholder="Nach Bezeichnung suchen" class="form-control"/>
                         </div>
                         <div class="col-sm-6">
-                            <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#addCategorieModal"><i class="fa fa-plus" aria-hidden="true"></i> Neue Hauptkategorie anlegen</button>
+                            <button type="button" class="btn btn-default pull-right" data-toggle="modal"
+                                    data-target="#addCategorieModal"><i class="fa fa-plus" aria-hidden="true"></i> Neue
+                                Hauptkategorie anlegen
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -38,7 +40,6 @@
             </div>
         </div>
     </div>
-
 
 
     <div class="row">
@@ -54,8 +55,11 @@
                         <td th:text="${category.name}"></td>
                         <td th:text="${category.position}"></td>
                         <td>
-                            <button type="button" class="btn btn-default"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-                            <button type="button" class="btn btn-default"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fa fa-pencil"
+                                                                             aria-hidden="true"></i></button>
+                            <button type="button" class="btn btn-default" data-toggle="modal"
+                                    data-target="#deleteCategorieModal" th:attr="data-title=${category.name}, data-id=${category.id}"><i class="fa fa-trash" aria-hidden="true"></i>
+                            </button>
                         </td>
                     </tr>
                 </table>
@@ -70,7 +74,8 @@
         <form th:action="@{/admin/maincategories/add}" method="post">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">Neue Hauptkategorie hinzufügen</h4>
                 </div>
                 <div class="modal-body">
@@ -88,11 +93,48 @@
             </div>
         </form>
 
-        </div>
+    </div>
+</div>
+
+<!-- Small delete categorie modal -->
+<div id="deleteCategorieModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <form th:action="@{/admin/maincategories/delete}" method="post">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Hauptkategorie löschen</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <strong><p id="nameLabel"></p></strong>
+                        <input type="hidden" class="form-control" name="id" id="id"/>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Abbrechen</button>
+                    <button type="submit" class="btn btn-danger">Löschen</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
 </div>
 
 
+<script>
+    $('#deleteCategorieModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var title = button.data('title');
+        var id = button.data('id');
 
-
+        var modal = $(this);
+        modal.find('.modal-body p').text(title);
+        modal.find('.modal-body input').val(id);
+    })
+</script>
 </body>
 </html>
