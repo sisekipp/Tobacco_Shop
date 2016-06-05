@@ -1,6 +1,7 @@
 package de.tobaccoshop.model.data.categories;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.TextIndexed;
 
 /**
  * Created by sebastian on 08.05.16.
@@ -9,6 +10,7 @@ public class Category {
 
     @Id
     private String id;
+    @TextIndexed
     private String name;
 
     public Category() {

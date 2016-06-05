@@ -1,14 +1,11 @@
 package de.tobaccoshop.controllers.admin.categories;
 
 import de.tobaccoshop.model.data.categories.MainCategory;
-import de.tobaccoshop.model.data.categories.SubCategory;
 import de.tobaccoshop.model.repository.admin.categories.MainCategoriesRepository;
-import de.tobaccoshop.model.repository.admin.categories.SubCategoriesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
@@ -36,7 +33,22 @@ public class MainCategoriesController {
         model.addAttribute("title", "Hauptkategorien");
         model.addAttribute("maincategories", mainCategories);
 
-        return "/admin/categories/main/index";
+        return "admin/categories/main/index";
+    }
+
+    @RequestMapping("/search")
+    public String search(@RequestParam("query") String query,Model model) {
+        if (query.isEmpty()) {
+            return "redirect:admin/maincategories";
+        }
+        else {
+            List<MainCategory> mainCategories = mainCategoriesRepository.searchByName(query);
+            model.addAttribute("title", "Hauptkategorien");
+            model.addAttribute("maincategories", mainCategories);
+
+            return "admin/categories/main/index";
+        }
+
     }
 
     @RequestMapping("/add")
@@ -50,14 +62,14 @@ public class MainCategoriesController {
             mainCategoriesRepository.insert(newMainCategory);
         }
 
-        return "redirect:/admin/maincategories";
+        return "redirect:admin/maincategories";
     }
 
     @RequestMapping("/delete")
     public String delete(@RequestParam("id") String id, Model model) {
         mainCategoriesRepository.delete(id);
 
-        return "redirect:/admin/maincategories";
+        return "redirect:admin/maincategories";
     }
 
 }

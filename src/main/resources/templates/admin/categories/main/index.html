@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorator="/layout/_adminLayout">
+      layout:decorator="layout/_adminLayout">
 <head>
     <title>Admin - Hauptkategorie</title>
 </head>
@@ -26,7 +26,10 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-6">
-                            <input type="text" placeholder="Nach Bezeichnung suchen" class="form-control"/>
+                            <form th:action="@{/admin/maincategories/search}" method="get">
+                                <input type="text" name="query" placeholder="Nach Bezeichnung suchen" class="form-control"/>
+                            </form>
+
                         </div>
                         <div class="col-sm-6">
                             <button type="button" class="btn btn-default pull-right" data-toggle="modal"
@@ -58,7 +61,9 @@
                             <button type="button" class="btn btn-default"><i class="fa fa-pencil"
                                                                              aria-hidden="true"></i></button>
                             <button type="button" class="btn btn-default" data-toggle="modal"
-                                    data-target="#deleteCategorieModal" th:attr="data-title=${category.name}, data-id=${category.id}"><i class="fa fa-trash" aria-hidden="true"></i>
+                                    data-target="#deleteCategorieModal"
+                                    th:attr="data-title=${category.name}, data-id=${category.id}"><i class="fa fa-trash"
+                                                                                                     aria-hidden="true"></i>
                             </button>
                         </td>
                     </tr>
@@ -126,15 +131,22 @@
 
 
 <script>
-    $('#deleteCategorieModal').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget);
-        var title = button.data('title');
-        var id = button.data('id');
+    window.onload = function () {
+        $('#deleteCategorieModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var title = button.data('title');
+            var id = button.data('id');
 
-        var modal = $(this);
-        modal.find('.modal-body p').text(title);
-        modal.find('.modal-body input').val(id);
-    })
+            var modal = $(this);
+            modal.find('.modal-body p').text(title);
+            modal.find('.modal-body input').val(id);
+        });
+    }
+
+
+
+
+
 </script>
 </body>
 </html>
