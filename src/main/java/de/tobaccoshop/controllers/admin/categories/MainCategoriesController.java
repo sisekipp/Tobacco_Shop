@@ -52,13 +52,13 @@ public class MainCategoriesController {
     }
 
     @RequestMapping("/add")
-    public String add(@RequestParam("name") String name, Model model) {
+    public String add(@RequestParam("name") String name,@RequestParam("searchMetaData") String searchMetaData, Model model) {
         List<MainCategory> mainCategories = mainCategoriesRepository.findAll();
 
         OptionalInt maxPosition = mainCategories.stream().mapToInt(p -> p.getPosition()).max();
 
         if(maxPosition.isPresent()) {
-            MainCategory newMainCategory = new MainCategory(name, maxPosition.getAsInt() +1);
+            MainCategory newMainCategory = new MainCategory(name, maxPosition.getAsInt() +1,searchMetaData);
             mainCategoriesRepository.insert(newMainCategory);
         }
 

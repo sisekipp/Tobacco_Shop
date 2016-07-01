@@ -44,11 +44,13 @@
                     <tr>
                         <th>Bezeichnung</th>
                         <th>Gehört zu</th>
+                        <th>Schlüsselwörter für Suche</th>
                         <th>Aktionen</th>
                     </tr>
                     <tr th:each="subcategory : ${subcategories}">
-                        <td th:text="${subcategory.name}"></td>
-                        <td></td>
+                        <td th:text="${subcategory.getName()}"></td>
+                        <td th:text="${subcategory.getParentCategory()}"></td>
+                        <td th:text="${subcategory.getSearchMetadata()}"></td>
                         <td>
                             <button type="button" class="btn btn-default"><i class="fa fa-pencil" aria-hidden="true"></i></button>
                             <button type="button" class="btn btn-default"><i class="fa fa-trash" aria-hidden="true"></i></button>
