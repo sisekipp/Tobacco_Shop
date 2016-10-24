@@ -27,7 +27,7 @@ public class ProductsTests {
     public void checkisInStockForStockIsEmpty() {
         testee.setStock(0);
 
-        Assert.assertFalse(testee.isInStock());
+        Assert.assertFalse(testee. isInStock());
     }
 
     @Test

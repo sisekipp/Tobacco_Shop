@@ -6,6 +6,34 @@
 </head>
 <body layout:fragment="content">
 
-<p th:text="'Hell, ' + ${name} + '!'" />
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <a th:href="@{/admin/customers}">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <p class="fa fa-camera-retro fa-5x"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5 class="text-center">Kunden</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="text-center">Alle Informationen über Kunden abfragen.</p>
+                        </div>
+                    </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
 </body>
 </html>

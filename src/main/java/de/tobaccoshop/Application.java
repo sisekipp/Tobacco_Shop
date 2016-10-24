@@ -4,9 +4,12 @@ import de.tobaccoshop.model.data.Address;
 import de.tobaccoshop.model.data.Customer;
 import de.tobaccoshop.model.data.categories.MainCategory;
 import de.tobaccoshop.model.data.categories.SubCategory;
+import de.tobaccoshop.model.data.product.MainProduct;
+import de.tobaccoshop.model.data.product.ProductValue;
 import de.tobaccoshop.model.repository.admin.CustomerRepository;
 import de.tobaccoshop.model.repository.admin.categories.MainCategoriesRepository;
 import de.tobaccoshop.model.repository.admin.categories.SubCategoriesRepository;
+import de.tobaccoshop.model.repository.admin.products.MainProductRepository;
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
@@ -16,7 +19,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.thymeleaf.TemplateEngine;
 
+import java.io.Console;
+import java.lang.reflect.ParameterizedType;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by sebastian on 18.04.16.
@@ -32,6 +40,9 @@ public class Application implements CommandLineRunner {
 
     @Autowired
     private SubCategoriesRepository subCategoriesRepository;
+
+    @Autowired
+    private MainProductRepository mainProductRepository;
 
     public static void main(String[] args) {
 
@@ -174,5 +185,29 @@ public class Application implements CommandLineRunner {
         SubCategory subEZ4 = SubCategory.builder().name("Zubehör").parentCategory("E-Zigarette").searchMetadata("preiswert, tabak, stopfen, red bull, marlboro, burton, pall mall, nevada,mohawk").build();
 
         subCategoriesRepository.save(Arrays.asList(subEZ1,subEZ2,subEZ3,subEZ4));
+
+        /* Main Products */
+
+        mainProductRepository.deleteAll();
+
+        MainProduct mainProductOne = new MainProduct();
+        mainProductOne.setName("Test 1");
+        mainProductOne.setStock(1);
+        Map<String,ProductValue> productValueMapOne = new HashMap<>();
+        productValueMapOne.put("Preis", ProductValue.builder().type("Int32").value(2).build());
+        mainProductOne.setValues(productValueMapOne);
+
+        MainProduct mainProductTwo = new MainProduct();
+        mainProductTwo.setName("Test 2");
+        mainProductTwo.setStock(1);
+        Map<String,ProductValue> productValueMapTwo = new HashMap<>();
+        productValueMapTwo.put("Preis", ProductValue.builder().type("Float").value(20.51).build());
+        mainProductTwo.setValues(productValueMapTwo);
+
+        mainProductRepository.save(Arrays.asList(mainProductOne,mainProductTwo));
+
+        List<MainProduct> products = mainProductRepository.findAll();
+        products.forEach(p -> p.getValues().forEach((k,v) -> System.out.println(v.getValue().getClass().getTypeName())));
+
     }
 }
