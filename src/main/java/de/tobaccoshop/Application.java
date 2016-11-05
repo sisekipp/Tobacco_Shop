@@ -5,7 +5,6 @@ import de.tobaccoshop.model.data.Customer;
 import de.tobaccoshop.model.data.categories.MainCategory;
 import de.tobaccoshop.model.data.categories.SubCategory;
 import de.tobaccoshop.model.data.product.MainProduct;
-import de.tobaccoshop.model.data.product.ProductValue;
 import de.tobaccoshop.model.repository.admin.CustomerRepository;
 import de.tobaccoshop.model.repository.admin.categories.MainCategoriesRepository;
 import de.tobaccoshop.model.repository.admin.categories.SubCategoriesRepository;
@@ -13,18 +12,12 @@ import de.tobaccoshop.model.repository.admin.products.MainProductRepository;
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.thymeleaf.TemplateEngine;
 
-import java.io.Console;
-import java.lang.reflect.ParameterizedType;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by sebastian on 18.04.16.
@@ -32,17 +25,24 @@ import java.util.Map;
 @SpringBootApplication
 public class Application implements CommandLineRunner {
 
-    @Autowired
+
     private CustomerRepository customerRepository;
 
-    @Autowired
+
     private MainCategoriesRepository mainCategoriesRepository;
 
-    @Autowired
+
     private SubCategoriesRepository subCategoriesRepository;
 
-    @Autowired
+
     private MainProductRepository mainProductRepository;
+
+    public Application(CustomerRepository customerRepository, MainCategoriesRepository mainCategoriesRepository, SubCategoriesRepository subCategoriesRepository, MainProductRepository mainProductRepository) {
+        this.customerRepository = customerRepository;
+        this.mainCategoriesRepository = mainCategoriesRepository;
+        this.subCategoriesRepository = subCategoriesRepository;
+        this.mainProductRepository = mainProductRepository;
+    }
 
     public static void main(String[] args) {
 
@@ -54,7 +54,6 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
-        customerRepository.deleteAll();
 
         Address addressOne = new Address();
         addressOne.setCity("Kandern");
@@ -68,19 +67,19 @@ public class Application implements CommandLineRunner {
         addressTwo.setHouseNumber("10");
         addressTwo.setPostalCode("04552");
 
-        Customer customerOne = new Customer("Sebastian", "Kipping", DateTime.parse("08.12.1983", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate());
+        Customer customerOne = Customer.builder().firstName("Sebastian").lastName("Kipping").birthDate(DateTime.parse("08.12.1983", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate()).build();
         customerOne.setEmail("kipping.sebastian@gmail.com");
         customerOne.setMainAddress(addressOne);
 
-        Customer customerTwo = new Customer("Katrin", "Kipping-Jehle",DateTime.parse("29.03.1982", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate());
+        Customer customerTwo = Customer.builder().firstName("Katrin").lastName("Kipping-Jehle").birthDate(DateTime.parse("29.03.1982", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate()).build();
         customerTwo.setEmail("familie.jehle@aol.com");
         customerTwo.setMainAddress(addressOne);
 
-        Customer customerThree = new Customer("Carina", "Jehle", DateTime.parse("10.05.2005", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate());
+        Customer customerThree = Customer.builder().firstName("Carina").lastName("Jehle").birthDate(DateTime.parse("10.05.2005", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate()).build();
         customerThree.setEmail("carina.jehle@gmail.com");
         customerThree.setMainAddress(addressOne);
 
-        Customer customerFour = new Customer("Till", "Jehle", DateTime.parse("20.06.2008", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate());
+        Customer customerFour = Customer.builder().firstName("Till").lastName("Jehle").birthDate(DateTime.parse("20.06.2008", DateTimeFormat.forPattern("dd.mm.yyyy")).toDate()).build();
         customerFour.setEmail("till.jehle@gmail.com");
         customerFour.setMainAddress(addressOne);
 
@@ -91,8 +90,6 @@ public class Application implements CommandLineRunner {
         customerRepository.save(customerFour);
 
         // Save a couple of main categories
-        mainCategoriesRepository.deleteAll();
-
         MainCategory mainCategoryOne = MainCategory.builder().name("Aktionenprodukte").position(1).searchMetadata("Red Bull, Tabak, Sparangebot, Convent, Winston").build();
         MainCategory mainCategoryTwo = MainCategory.builder().name("E-Zigarette").position(2).searchMetadata("Lynden, Cross, E-Zigarette, Vype, Liquid").build();
         MainCategory mainCategoryThree = MainCategory.builder().name("Zigarren").position(3).searchMetadata("Zigarren,Zigarillo,").build();
@@ -105,7 +102,6 @@ public class Application implements CommandLineRunner {
         mainCategoriesRepository.save(Arrays.asList(mainCategoryOne,mainCategoryTwo,mainCategoryThree,mainCategoryFour,mainCategoryFive,mainCategorySix,mainCategorySeven));
 
         // Save a couple of sub categories
-        subCategoriesRepository.deleteAll();
 
         // Zigarren
         SubCategory subZ1 = SubCategory.builder().name("Zigarren/Zigarillos A - B").parentCategory("Zigarren").searchMetadata("preiswert, tabak, stopfen, red bull, marlboro, burton, pall mall, nevada,mohawk").build();
@@ -187,27 +183,17 @@ public class Application implements CommandLineRunner {
         subCategoriesRepository.save(Arrays.asList(subEZ1,subEZ2,subEZ3,subEZ4));
 
         /* Main Products */
-
-        mainProductRepository.deleteAll();
-
         MainProduct mainProductOne = new MainProduct();
         mainProductOne.setName("Test 1");
         mainProductOne.setStock(1);
-        Map<String,ProductValue> productValueMapOne = new HashMap<>();
-        productValueMapOne.put("Preis", ProductValue.builder().type("Int32").value(2).build());
-        mainProductOne.setValues(productValueMapOne);
 
         MainProduct mainProductTwo = new MainProduct();
         mainProductTwo.setName("Test 2");
         mainProductTwo.setStock(1);
-        Map<String,ProductValue> productValueMapTwo = new HashMap<>();
-        productValueMapTwo.put("Preis", ProductValue.builder().type("Float").value(20.51).build());
-        mainProductTwo.setValues(productValueMapTwo);
 
         mainProductRepository.save(Arrays.asList(mainProductOne,mainProductTwo));
 
-        List<MainProduct> products = mainProductRepository.findAll();
-        products.forEach(p -> p.getValues().forEach((k,v) -> System.out.println(v.getValue().getClass().getTypeName())));
+       // List<MainProduct> products = mainProductRepository.findAll();
 
     }
 }

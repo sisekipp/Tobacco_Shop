@@ -17,7 +17,7 @@ public class CustomerTests {
 
     @Before
     public void setUp() {
-        this.testee = new Customer();
+        this.testee = Customer.builder().build();
     }
 
     @After

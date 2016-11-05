@@ -28,14 +28,14 @@ public class CustomerController {
 
     @RequestMapping("")
     public String index(Model model) {
-        List<Customer> customers = customerRepository.findAll();
+        Iterable<Customer> customers = customerRepository.findAll();
 
         model.addAttribute("customers", customers);
         return "/admin/customers/main";
     }
 
     @RequestMapping("/details")
-    public String info(@RequestParam(value="id", required = true)String id, Model model) {
+    public String info(@RequestParam(value="id", required = true)Long id, Model model) {
         Customer customer = customerRepository.findOne(id);
 
         if (customer == null) throw new CustomerNotFoundException();

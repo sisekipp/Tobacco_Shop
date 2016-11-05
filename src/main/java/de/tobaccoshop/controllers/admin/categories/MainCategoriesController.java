@@ -42,7 +42,7 @@ public class MainCategoriesController {
             return "redirect:admin/maincategories";
         }
         else {
-            List<MainCategory> mainCategories = mainCategoriesRepository.searchByName(query);
+            List<MainCategory> mainCategories = mainCategoriesRepository.findAll();
             model.addAttribute("title", "Hauptkategorien");
             model.addAttribute("maincategories", mainCategories);
 
@@ -58,15 +58,15 @@ public class MainCategoriesController {
         OptionalInt maxPosition = mainCategories.stream().mapToInt(p -> p.getPosition()).max();
 
         if(maxPosition.isPresent()) {
-            MainCategory newMainCategory = new MainCategory(name, maxPosition.getAsInt() +1,searchMetaData);
-            mainCategoriesRepository.insert(newMainCategory);
+            MainCategory newMainCategory = MainCategory.builder().name(name).position(maxPosition.getAsInt() +1).searchMetadata(searchMetaData).build();
+            mainCategoriesRepository.save(newMainCategory);
         }
 
         return "redirect:admin/maincategories";
     }
 
     @RequestMapping("/delete")
-    public String delete(@RequestParam("id") String id, Model model) {
+    public String delete(@RequestParam("id") Long id, Model model) {
         mainCategoriesRepository.delete(id);
 
         return "redirect:admin/maincategories";

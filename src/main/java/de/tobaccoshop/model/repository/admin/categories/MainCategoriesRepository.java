@@ -1,14 +1,11 @@
 package de.tobaccoshop.model.repository.admin.categories;
 
 import de.tobaccoshop.model.data.categories.MainCategory;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
-import org.springframework.stereotype.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  * Created by sebastian on 07.05.16.
  */
-@EnableMongoRepositories()
-public interface MainCategoriesRepository extends MongoRepository<MainCategory,String>, MainCategoriesRepositoryCustom {
+public interface MainCategoriesRepository extends JpaRepository<MainCategory,Long> {
 
 }
