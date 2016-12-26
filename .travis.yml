@@ -5,17 +5,17 @@ addons:
   sonarqube:
     token:
       secure: "SIuqUELfD9Eg+G5NLQ5syDvBAfAfgrjgCf5/p/22XHgRKkwKmo2BhpM3Mql8Q8XLnkpqHeylEtr49SrNvQnqtNlcALzCanbPaGDk6/OCjExqXWjFBDZqsO5M9kioa4OM26+81inkvgemXfMBQEY+HX2BHch4OQiyC7cHcdsTqJlwLvLPARXj9w5DT3KPC073DKHlDdYitiIGZV29D/STXVSYUMKolgt10R8QtoUMfI/F6L8T+4mDaA+gDgqz4ZnH845QnUuT/sSZZtzDkmM9my1Q/G+vKq+LZwS5UJwGqnETgP0jhtHfAHjDMIA4ggWvKWootSEttACp0/nK6090ukpwwclvK2Gy3MN2x1pYGNSlKvtSS6czAXX7cILOT/p3rD81AkXS1Nfx3MY7UTF2+R1ZrpPDzm32kaQdpD0O6TRkNXpBO+m6Hc9g/DIi09fUf4QiRTYyBvzdJYVXeng8BmO0fNllMjhe1XexnEP8ao4XVAiKXE5R9QflvwGlZqGbJnY8UtQsXzqmvZMETI0mNKwgLRMLD+WUBqMDn+XnDtAeos8kOEUy5TKbsD2bCaiwcShZ9j2AzdR3UnDP7ACbQVhWdP/JjJHX1z12VNcbyo85dUpilIE8E+6THi/F8wgPirCJ+gxvtcNZ2vdOrQTaDjJ/iBsbxZJYA5IVdgZWv/o="
-
 jdk:
-  - oraclejdk8
-
+- oraclejdk8
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
 cache:
   directories:
-    - '$HOME/.m2/repository'
-    - '$HOME/.sonar/cache'
-
+  - $HOME/.m2/repository
+  - $HOME/.sonar/cache
 branches:
   only:
   - master
+env:
+  global:
+    secure: THnL4oquwA1OjKCjQrT5zAUdSMv1vLMZsMD4XJmbX7l+fwyyc0XzITTkuRdcOWICbvI7HqUi+B97chwDE9unjABDsAWjw2rsEow+vrehYUh/1ABF7/s+3nDT/ppvKWleIyPByCWlSQ5xxY1duPdYzB1emJ1zfu5SW3KxkNW9jqhO3JoE8tsYf/FrfjFk4R6BZd39Y+92oIrXLoS1livHKr2OlRIs5MeQuP27Tngim/z8EjYWv1mFAGBWg1sbJUI7vIvyemkLcUj3yTIAbGfE+W2p1VBvrcC0TZHpfImOHuz5mbPTuQkqfQ2EVoiANPiGl+j922pp5wMXAcJjg4RjsItgfcOz9mn8oDCuNK8P7n8QYKrLJN+oWdWH9HkkttgOmvTGlbql+Wy2thj3hg/dLCMY0fcL3UsKJadoKUFKjEFPDZruz4syYfJfxp659Cgmgih/X8OuQoCc4Sj37QxqGoSHEK3C4sGsxjg19eUGBAylsQ24MkXqMzjgwD0iG/Sh57ln6f+1e1Ttzqpye4uXM9cOTKexZIIp+DwPLYjZXtElUgB6gGYIAXUTsEIP3AvWALukZZlLivvScFgHGYNoNdGTdrw2fRiC21dwb7CN1tW1NE+qjK/mC5swevCA+HB8cO6hvCvs4lpJJfWxiAgBPgQ7yLqy1w1ByDjOBw7bQi8=
