@@ -11,16 +11,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tobacco_shop" target="1.8" />
+      <module name="tobacco_shop" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="" />
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
-  </component>
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
   </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
@@ -189,59 +186,59 @@
         <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: ch.qos.logback:logback-classic:1.1.8">
+    <library name="Maven: ch.qos.logback:logback-classic:1.1.7">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: ch.qos.logback:logback-core:1.1.8">
+    <library name="Maven: ch.qos.logback:logback-core:1.1.7">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.5">
+    <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.4">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-annotations/2.8.5/jackson-annotations-2.8.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-annotations/2.8.5/jackson-annotations-2.8.5-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-annotations/2.8.5/jackson-annotations-2.8.5-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.5">
+    <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.4">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.5">
+    <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.4">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml:classmate:1.3.3">
@@ -541,323 +538,323 @@
         <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/projectlombok/lombok/1.16.10/lombok-1.16.10-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.22">
+    <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.21">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:jul-to-slf4j:1.7.22">
+    <library name="Maven: org.slf4j:jul-to-slf4j:1.7.21">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.22">
+    <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.21">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:slf4j-api:1.7.22">
+    <library name="Maven: org.slf4j:slf4j-api:1.7.21">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-actuator:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-actuator:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-actuator/1.4.3.RELEASE/spring-boot-actuator-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-actuator/1.4.2.RELEASE/spring-boot-actuator-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-actuator/1.4.3.RELEASE/spring-boot-actuator-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-actuator/1.4.2.RELEASE/spring-boot-actuator-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-actuator/1.4.3.RELEASE/spring-boot-actuator-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-actuator/1.4.2.RELEASE/spring-boot-actuator-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/1.4.3.RELEASE/spring-boot-autoconfigure-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/1.4.3.RELEASE/spring-boot-autoconfigure-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/1.4.3.RELEASE/spring-boot-autoconfigure-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-devtools:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-devtools:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-devtools/1.4.3.RELEASE/spring-boot-devtools-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-devtools/1.4.2.RELEASE/spring-boot-devtools-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-devtools/1.4.3.RELEASE/spring-boot-devtools-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-devtools/1.4.2.RELEASE/spring-boot-devtools-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-devtools/1.4.3.RELEASE/spring-boot-devtools-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-devtools/1.4.2.RELEASE/spring-boot-devtools-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-aop:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter-aop:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-aop/1.4.3.RELEASE/spring-boot-starter-aop-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-aop/1.4.2.RELEASE/spring-boot-starter-aop-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-aop/1.4.3.RELEASE/spring-boot-starter-aop-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-aop/1.4.2.RELEASE/spring-boot-starter-aop-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-aop/1.4.3.RELEASE/spring-boot-starter-aop-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-aop/1.4.2.RELEASE/spring-boot-starter-aop-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-data-jpa/1.4.3.RELEASE/spring-boot-starter-data-jpa-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-data-jpa/1.4.2.RELEASE/spring-boot-starter-data-jpa-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-data-jpa/1.4.3.RELEASE/spring-boot-starter-data-jpa-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-data-jpa/1.4.2.RELEASE/spring-boot-starter-data-jpa-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-data-jpa/1.4.3.RELEASE/spring-boot-starter-data-jpa-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-data-jpa/1.4.2.RELEASE/spring-boot-starter-data-jpa-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.3.RELEASE/spring-boot-starter-jdbc-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.2.RELEASE/spring-boot-starter-jdbc-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.3.RELEASE/spring-boot-starter-jdbc-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.2.RELEASE/spring-boot-starter-jdbc-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.3.RELEASE/spring-boot-starter-jdbc-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.2.RELEASE/spring-boot-starter-jdbc-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-logging/1.4.3.RELEASE/spring-boot-starter-logging-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-logging/1.4.3.RELEASE/spring-boot-starter-logging-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-logging/1.4.3.RELEASE/spring-boot-starter-logging-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.4.3.RELEASE/spring-boot-starter-thymeleaf-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.4.2.RELEASE/spring-boot-starter-thymeleaf-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.4.3.RELEASE/spring-boot-starter-thymeleaf-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.4.2.RELEASE/spring-boot-starter-thymeleaf-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.4.3.RELEASE/spring-boot-starter-thymeleaf-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.4.2.RELEASE/spring-boot-starter-thymeleaf-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-tomcat/1.4.3.RELEASE/spring-boot-starter-tomcat-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-tomcat/1.4.2.RELEASE/spring-boot-starter-tomcat-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-tomcat/1.4.3.RELEASE/spring-boot-starter-tomcat-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-tomcat/1.4.2.RELEASE/spring-boot-starter-tomcat-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-tomcat/1.4.3.RELEASE/spring-boot-starter-tomcat-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-tomcat/1.4.2.RELEASE/spring-boot-starter-tomcat-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-web/1.4.3.RELEASE/spring-boot-starter-web-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-web/1.4.2.RELEASE/spring-boot-starter-web-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-web/1.4.3.RELEASE/spring-boot-starter-web-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-web/1.4.2.RELEASE/spring-boot-starter-web-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-web/1.4.3.RELEASE/spring-boot-starter-web-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter-web/1.4.2.RELEASE/spring-boot-starter-web-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter/1.4.3.RELEASE/spring-boot-starter-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter/1.4.3.RELEASE/spring-boot-starter-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter/1.4.3.RELEASE/spring-boot-starter-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot:1.4.3.RELEASE">
+    <library name="Maven: org.springframework.boot:spring-boot:1.4.2.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot/1.4.3.RELEASE/spring-boot-1.4.3.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot/1.4.3.RELEASE/spring-boot-1.4.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot/1.4.3.RELEASE/spring-boot-1.4.3.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.data:spring-data-commons:1.12.6.RELEASE">
+    <library name="Maven: org.springframework.data:spring-data-commons:1.12.5.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-commons/1.12.6.RELEASE/spring-data-commons-1.12.6.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-commons/1.12.6.RELEASE/spring-data-commons-1.12.6.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-commons/1.12.6.RELEASE/spring-data-commons-1.12.6.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.data:spring-data-jpa:1.10.6.RELEASE">
+    <library name="Maven: org.springframework.data:spring-data-jpa:1.10.5.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-jpa/1.10.6.RELEASE/spring-data-jpa-1.10.6.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-jpa/1.10.5.RELEASE/spring-data-jpa-1.10.5.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-jpa/1.10.6.RELEASE/spring-data-jpa-1.10.6.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-jpa/1.10.5.RELEASE/spring-data-jpa-1.10.5.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-jpa/1.10.6.RELEASE/spring-data-jpa-1.10.6.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/data/spring-data-jpa/1.10.5.RELEASE/spring-data-jpa-1.10.5.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-aop:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-aop:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-aspects:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-aspects:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aspects/4.3.5.RELEASE/spring-aspects-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aspects/4.3.4.RELEASE/spring-aspects-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aspects/4.3.5.RELEASE/spring-aspects-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aspects/4.3.4.RELEASE/spring-aspects-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aspects/4.3.5.RELEASE/spring-aspects-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-aspects/4.3.4.RELEASE/spring-aspects-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-beans:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-beans:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-context:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-context:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-core:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-core:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-expression:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-expression:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-jdbc:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-jdbc:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-orm:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-orm:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-orm/4.3.4.RELEASE/spring-orm-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-orm/4.3.4.RELEASE/spring-orm-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-orm/4.3.4.RELEASE/spring-orm-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-tx:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-tx:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-tx/4.3.5.RELEASE/spring-tx-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-tx/4.3.5.RELEASE/spring-tx-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-tx/4.3.5.RELEASE/spring-tx-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-web:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-web:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-webmvc:4.3.5.RELEASE">
+    <library name="Maven: org.springframework:spring-webmvc:4.3.4.RELEASE">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-webmvc/4.3.4.RELEASE/spring-webmvc-4.3.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE-javadoc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-webmvc/4.3.4.RELEASE/spring-webmvc-4.3.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../Development/Maven/Repository/org/springframework/spring-webmvc/4.3.4.RELEASE/spring-webmvc-4.3.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.thymeleaf:thymeleaf-spring4:2.1.5.RELEASE">
