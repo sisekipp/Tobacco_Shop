@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by sebastian on 17.08.16.
  */
 @Controller
-@RequestMapping("/shop")
 public class ShopController {
-    @RequestMapping("")
+    @RequestMapping("/")
     public String index(Model model) {
         return "/shop/main";
     }
