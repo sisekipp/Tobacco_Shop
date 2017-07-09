@@ -23,9 +23,9 @@
         <spring.data.mongodb>1.10.4.RELEASE</spring.data.mongodb>
 
         <!-- Helper -->
-        <google.guava>21.0</google.guava>
-        <joda.time>2.9.7</joda.time>
-        <lombok>1.16.12</lombok>
+        <google.guava>22.0</google.guava>
+        <joda.time>2.9.9</joda.time>
+        <lombok>1.16.16</lombok>
 
         <!-- Testing -->
         <junit>4.12</junit>
