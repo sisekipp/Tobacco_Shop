@@ -1,4 +1,4 @@
-package de.tobaccoshop.admin.controllers.exceptions;
+package de.tobaccoshop.admin.customer.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

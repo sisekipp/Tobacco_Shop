@@ -1,4 +1,4 @@
-package de.tobaccoshop.model.data;
+package de.tobaccoshop.admin.customer.entity;
 
 import lombok.Builder;
 import lombok.Data;

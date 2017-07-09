@@ -1,6 +1,6 @@
-package de.tobaccoshop.admin.repository.products;
+package de.tobaccoshop.admin.product.repository;
 
-import de.tobaccoshop.model.data.product.MainProduct;
+import de.tobaccoshop.admin.product.entity.MainProduct;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**

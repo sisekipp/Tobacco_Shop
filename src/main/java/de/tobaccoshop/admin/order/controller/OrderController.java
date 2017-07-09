@@ -1,4 +1,4 @@
-package de.tobaccoshop.controllers.admin.order;
+package de.tobaccoshop.admin.order.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

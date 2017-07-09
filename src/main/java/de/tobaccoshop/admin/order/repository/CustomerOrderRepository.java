@@ -1,6 +1,6 @@
-package de.tobaccoshop.model.repository.admin.order;
+package de.tobaccoshop.admin.order.repository;
 
-import de.tobaccoshop.model.data.CustomerOrder;
+import de.tobaccoshop.admin.order.entity.CustomerOrder;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**

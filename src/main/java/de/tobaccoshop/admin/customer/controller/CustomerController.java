@@ -1,8 +1,8 @@
-package de.tobaccoshop.admin.controllers.customer;
+package de.tobaccoshop.admin.customer.controller;
 
-import de.tobaccoshop.admin.controllers.exceptions.CustomerNotFoundException;
-import de.tobaccoshop.model.data.Customer;
-import de.tobaccoshop.admin.repository.CustomerRepository;
+import de.tobaccoshop.admin.customer.exceptions.CustomerNotFoundException;
+import de.tobaccoshop.admin.customer.entity.Customer;
+import de.tobaccoshop.admin.customer.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

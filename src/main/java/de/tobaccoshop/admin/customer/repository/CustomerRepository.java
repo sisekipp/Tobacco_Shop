@@ -1,6 +1,6 @@
-package de.tobaccoshop.admin.repository;
+package de.tobaccoshop.admin.customer.repository;
 
-import de.tobaccoshop.model.data.Customer;
+import de.tobaccoshop.admin.customer.entity.Customer;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

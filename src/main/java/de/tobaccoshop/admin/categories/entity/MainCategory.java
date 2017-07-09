@@ -1,4 +1,4 @@
-package de.tobaccoshop.model.data.categories;
+package de.tobaccoshop.admin.categories.entity;
 
 import lombok.Builder;
 import lombok.Data;

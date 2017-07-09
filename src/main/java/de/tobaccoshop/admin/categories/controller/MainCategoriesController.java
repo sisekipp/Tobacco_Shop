@@ -1,7 +1,7 @@
-package de.tobaccoshop.admin.controllers.categories;
+package de.tobaccoshop.admin.categories.controller;
 
-import de.tobaccoshop.model.data.categories.MainCategory;
-import de.tobaccoshop.admin.repository.categories.MainCategoriesRepository;
+import de.tobaccoshop.admin.categories.entity.MainCategory;
+import de.tobaccoshop.admin.categories.repository.MainCategoriesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

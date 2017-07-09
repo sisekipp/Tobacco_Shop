@@ -1,6 +1,6 @@
-package de.tobaccoshop.admin.repository.categories;
+package de.tobaccoshop.admin.categories.repository;
 
-import de.tobaccoshop.model.data.categories.SubCategory;
+import de.tobaccoshop.admin.categories.entity.SubCategory;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
