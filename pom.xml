@@ -12,19 +12,54 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <!-- Spring -->
+        <spring.base.version>1.5.4.RELEASE</spring.base.version>
+
+        <!-- Thymeleaf -->
+        <thymeleaf.layout.version>2.2.2</thymeleaf.layout.version>
+
+        <!-- Spring Data -->
+        <spring.data.elasticsearch>3.0.0.BUILD-SNAPSHOT</spring.data.elasticsearch>
+        <spring.data.mongodb>1.10.4.RELEASE</spring.data.mongodb>
+
+        <!-- Helper -->
+        <google.guava>21.0</google.guava>
+        <joda.time>2.9.7</joda.time>
+        <lombok>1.16.12</lombok>
+
+        <!-- Testing -->
+        <junit>4.12</junit>
     </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.1.RELEASE</version>
+        <version>1.5.4.RELEASE</version>
     </parent>
+
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>release</name>
+            <url>https://repo.spring.io/release</url>
+        </repository>
+        <repository>
+            <snapshots/>
+            <id>snapshots</id>
+            <name>libs-snapshot</name>
+            <url>https://repo.spring.io/libs-snapshot</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <!-- Thymeleaf -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>${spring.base.version}</version>
         </dependency>
         <dependency>
             <groupId>nz.net.ultraq.thymeleaf</groupId>
@@ -35,6 +70,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
+            <version>${spring.base.version}</version>
             <optional>true</optional>
         </dependency>
 
@@ -42,27 +78,22 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-elasticsearch</artifactId>
-            <version>2.1.0.RELEASE</version>
+            <version>${spring.data.elasticsearch}</version>
         </dependency>
 
-
-        <!-- SQL -->
+        <!-- MongoDB -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>${spring.data.mongodb}</version>
         </dependency>
 
-        <!-- H2 Database -->
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
 
         <!-- Metrics -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-actuator</artifactId>
+            <version>${spring.base.version}</version>
         </dependency>
 
 
@@ -70,24 +101,24 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>21.0</version>
+            <version>${google.guava}</version>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>2.9.7</version>
+            <version>${joda.time}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.12</version>
+            <version>${lombok}</version>
         </dependency>
 
         <!-- Test Abhängigkeiteno -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit}</version>
             <scope>test</scope>
         </dependency>
 

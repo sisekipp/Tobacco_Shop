@@ -5,10 +5,6 @@ import lombok.Data;
 import lombok.experimental.Tolerate;
 import org.joda.time.Period;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import java.util.Date;
 
 /**
@@ -16,11 +12,8 @@ import java.util.Date;
  */
 @Data
 @Builder
-@Entity
 public class Customer {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String firstName;

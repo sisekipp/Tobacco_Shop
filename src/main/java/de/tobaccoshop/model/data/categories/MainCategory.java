@@ -5,21 +5,13 @@ import lombok.Data;
 import lombok.NonNull;
 import lombok.experimental.Tolerate;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
 /**
  * Created by sebastian on 06.05.16.
  */
 @Data
-@Entity
 @Builder
 public class MainCategory {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @NonNull

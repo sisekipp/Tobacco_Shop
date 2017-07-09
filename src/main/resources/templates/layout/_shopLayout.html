@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
-    <title>Shop</title>
+    <title>Tabakwaren Kipping</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/semantic.min.css" crossorigin="anonymous"/>
     <link rel="stylesheet" th:href="@{/css/shop.css}" />
 </head>
 <body>
 <div class="ui fixed menu">
-    <div class="ui container">
-        <a href="#" class="header item">
+
+        <a th:href="@{/}" class="header item">
             <img class="logo" src="assets/images/logo.png"/>
-            Project Name
+            Tabakwaren Kipping
         </a>
         <a href="#" class="item">Home</a>
         <div class="ui simple dropdown item">
@@ -31,18 +31,30 @@
                 <a class="item" href="#">Link Item</a>
             </div>
         </div>
-    </div>
+
 </div>
 
-<div layout:fragment="content"></div>
+<main>
+    <div layout:fragment="content"></div>
+</main>
+
 
 
 <footer>
-    <div class="ui inverted vertical footer segment">
+    <div class="ui inverted vertical footer  segment">
         <div class="ui center aligned container">
             <div class="ui stackable inverted divided grid">
                 <div class="three wide column">
-                    <h4 class="ui inverted header">Group 1</h4>
+                    <h4 class="ui inverted header">Tabakwaren Kipping</h4>
+                    <div class="ui inverted link list">
+                        <a th:href="@{/aboutUs}" class="item">Über uns</a>
+                        <a href="#" class="item">Link Two</a>
+                        <a href="#" class="item">Link Three</a>
+                        <a href="#" class="item">Link Four</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Informationen</h4>
                     <div class="ui inverted link list">
                         <a href="#" class="item">Link One</a>
                         <a href="#" class="item">Link Two</a>
@@ -51,16 +63,7 @@
                     </div>
                 </div>
                 <div class="three wide column">
-                    <h4 class="ui inverted header">Group 2</h4>
-                    <div class="ui inverted link list">
-                        <a href="#" class="item">Link One</a>
-                        <a href="#" class="item">Link Two</a>
-                        <a href="#" class="item">Link Three</a>
-                        <a href="#" class="item">Link Four</a>
-                    </div>
-                </div>
-                <div class="three wide column">
-                    <h4 class="ui inverted header">Group 3</h4>
+                    <h4 class="ui inverted header">Rechtliches</h4>
                     <div class="ui inverted link list">
                         <a href="#" class="item">Link One</a>
                         <a href="#" class="item">Link Two</a>

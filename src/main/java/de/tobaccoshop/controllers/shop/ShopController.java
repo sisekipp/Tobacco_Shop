@@ -13,4 +13,9 @@ public class ShopController {
     public String index(Model model) {
         return "/shop/main";
     }
+
+    @RequestMapping("/aboutUs")
+    public String aboutUs(Model model) {
+        return "/shop/about_us";
+    }
 }
