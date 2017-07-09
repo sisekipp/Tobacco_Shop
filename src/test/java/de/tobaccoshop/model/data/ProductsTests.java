@@ -1,6 +1,6 @@
 package de.tobaccoshop.model.data;
 
-import de.tobaccoshop.model.data.product.Product;
+import de.tobaccoshop.admin.product.entity.Product;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

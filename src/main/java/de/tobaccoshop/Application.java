@@ -1,14 +1,14 @@
 package de.tobaccoshop;
 
-import de.tobaccoshop.model.data.Address;
-import de.tobaccoshop.model.data.Customer;
-import de.tobaccoshop.model.data.categories.MainCategory;
-import de.tobaccoshop.model.data.categories.SubCategory;
-import de.tobaccoshop.model.data.product.MainProduct;
-import de.tobaccoshop.model.repository.admin.CustomerRepository;
-import de.tobaccoshop.model.repository.admin.categories.MainCategoriesRepository;
-import de.tobaccoshop.model.repository.admin.categories.SubCategoriesRepository;
-import de.tobaccoshop.model.repository.admin.products.MainProductRepository;
+import de.tobaccoshop.admin.customer.entity.Address;
+import de.tobaccoshop.admin.customer.entity.Customer;
+import de.tobaccoshop.admin.categories.entity.MainCategory;
+import de.tobaccoshop.admin.categories.entity.SubCategory;
+import de.tobaccoshop.admin.product.entity.MainProduct;
+import de.tobaccoshop.admin.customer.repository.CustomerRepository;
+import de.tobaccoshop.admin.categories.repository.MainCategoriesRepository;
+import de.tobaccoshop.admin.categories.repository.SubCategoriesRepository;
+import de.tobaccoshop.admin.product.repository.MainProductRepository;
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;

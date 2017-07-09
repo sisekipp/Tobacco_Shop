@@ -1,4 +1,4 @@
-package de.tobaccoshop.model.repository.admin.products;
+package de.tobaccoshop.admin.repository.products;
 
 import de.tobaccoshop.model.data.product.MainProduct;
 import org.springframework.data.mongodb.repository.MongoRepository;

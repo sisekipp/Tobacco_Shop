@@ -1,6 +1,6 @@
-package de.tobaccoshop.controllers.admin.product;
+package de.tobaccoshop.admin.controllers.product;
 
-import de.tobaccoshop.model.repository.admin.products.SpecialProductRepository;
+import de.tobaccoshop.admin.repository.products.SpecialProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

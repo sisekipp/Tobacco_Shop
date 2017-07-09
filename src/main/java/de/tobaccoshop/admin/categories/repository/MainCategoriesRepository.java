@@ -1,4 +1,4 @@
-package de.tobaccoshop.model.repository.admin.categories;
+package de.tobaccoshop.admin.repository.categories;
 
 import de.tobaccoshop.model.data.categories.MainCategory;
 import org.springframework.data.mongodb.repository.MongoRepository;
